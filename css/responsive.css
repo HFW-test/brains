@@ -1,0 +1,315 @@
+@media screen and (min-width: 500px) {
+  /* ---------header---------- */
+  /* logo */
+  .logo a {
+    width: 230px;
+  }
+
+  .logo-box {
+    width: 60px;
+    height: 85px;
+  }
+
+  .logo-box p {
+    font-size: 56px;
+    line-height: 32px;
+  }
+
+  .logo-texts {
+    font-size: 18px;
+    padding-left: 5px;
+  }
+
+  /* header-intro */
+  .para-4 {
+    right: 35%;
+  }
+
+  .header-img1 {
+    width: 160px;
+    height: 160px;
+    left: 10%;
+    top: 240px;
+  }
+
+  .header-img2 {
+    width: 180px;
+    height: 180px;
+    top: 600px;
+  }
+
+  .header-img3 {
+    width: 160px;
+    height: 160px;
+    top: 1150px;
+  }
+
+  .header-img4 {
+    width: 150px;
+    height: 150px;
+    top: 1450px;
+    left: 60%;
+  }
+
+  /* --------main-------- */
+  /* title */
+  .en-title {
+    font-size: 60px;
+  }
+
+  .jp-title {
+    font-size: 28px;
+  }
+
+  .service-title {
+    padding-bottom: 160px;
+  }
+
+  /* --------service--------- */
+  /* contents */
+  .service-img {
+    width: 40%;
+  }
+
+  .svc-img1 {
+    top: -60px;
+  }
+
+  .svc-img2,
+  .svc-img3 {
+    display: block;
+    width: 30%;
+  }
+
+  .svc-img2 {
+    top: -100px;
+    right: 0;
+  }
+
+  .svc-img3 {
+    bottom: -160px;
+    left: 0;
+  }
+
+  .svc-img4 {
+    bottom: -120px;
+  }
+
+  .service-intro-container {
+    padding-top: 280px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  /* nav */
+  .open,
+  .close {
+    font-size: 30px;
+  }
+
+  .sns-btns a {
+    margin-right: 12px;
+  }
+
+  /* header-intro */
+  .para-1 {
+    right: 5%;
+  }
+
+  .para-4 {
+    right: 40%;
+  }
+
+  .header-img1 {
+    width: 180px;
+    height: 180px;
+    left: 20%;
+    top: 280px;
+  }
+
+  .header-img2 {
+    width: 200px;
+    height: 200px;
+    top: 600px;
+  }
+
+  .header-img3 {
+    width: 180px;
+    height: 180px;
+    top: 1000px;
+    left: 20%;
+  }
+
+  .header-img4 {
+    width: 150px;
+    height: 150px;
+    top: 1400px;
+    left: 70%;
+  }
+
+  /* service */
+  .service-top p {
+    font-size: 60px;
+    line-height: 100px;
+  }
+
+  .service-img {
+    width: 35%;
+  }
+
+  .svc-img2,
+  .svc-img3 {
+    width: 25%;
+  }
+
+  /* company */
+  td br {
+    display: none;
+  }
+
+  th,
+  td {
+    padding: 10px 15px 0 10px;
+  }
+  .map {
+    width: 95%;
+    height: 500px;
+  }
+
+  /* contact */
+  form input,
+  form label {
+    width: 350px;
+  }
+
+  /* footer */
+  .footer-container {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    padding: 30px 0;
+  }
+
+  .footer-sns {
+    position: absolute;
+    top: 16px;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  /* header-intro */
+  .header-intro {
+    height: 1850px;
+  }
+
+  .header-intro-texts {
+    line-height: 60px;
+    font-size: 20px;
+  }
+  .para-1 {
+    right: 15%;
+  }
+
+  .para-2 {
+    top: 580px;
+    left: 20%;
+  }
+
+  .para-3 {
+    right: 15%;
+  }
+
+  .header-img1 {
+    width: 200px;
+    height: 200px;
+    left: 25%;
+  }
+
+  .header-img2 {
+    width: 220px;
+    height: 220px;
+    top: 640px;
+  }
+
+  .header-img3 {
+    width: 200px;
+    height: 200px;
+    top: 1080px;
+    left: 30%;
+  }
+
+  .header-img4 {
+    top: 1500px;
+    left: 70%;
+  }
+
+  /* title */
+  .service-title {
+    padding-bottom: 200px;
+  }
+  /* service */
+  .service-img {
+    width: 30%;
+  }
+
+  .svc-img2,
+  .svc-img3 {
+    width: 20%;
+  }
+
+  .svc-img1,
+  .svc-img3 {
+    left: 5%;
+  }
+
+  .svc-img2,
+  .svc-img4 {
+    right: 5%;
+  }
+
+  .service-intro-container {
+    width: 100%;
+  }
+
+  .service-intro-boxies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .counseling,
+  .it {
+    width: calc(50% - 30px);
+    padding: 0 15px;
+  }
+
+  .container-box {
+    height: 100%;
+  }
+
+  .container-box-texts {
+    height: calc(100% - 250px);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+
+  .button {
+    margin-top: auto;
+  }
+
+  /* company */
+  td {
+    padding-left: 40px;
+  }
+
+  .map {
+    width: 700px;
+  }
+
+  /* contact */
+  .contact-container br {
+    display: block;
+  }
+}
