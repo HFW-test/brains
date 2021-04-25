@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/IT.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="logo" id="home">
+        <a href="../HTML/index.html">
+          <div class="logo-box">
+            <p>b</p>
+          </div>
+          <p class="logo-texts">brains co., ltd.</p>
+        </a>
+      </div>
+
+      <!-- nav -->
+      <input id="menu" type="checkbox" />
+      <label for="menu" class="open">
+        <i class="fas fa-fw fa-bars"></i>
+        <p>menu</p>
+      </label>
+      <label for="menu" class="back"></label>
+      <aside>
+        <label for="menu" class="close">
+          <i class="fas fa-fw fa-times"></i>
+          <p>close</p>
+        </label>
+        <nav class="nav-container">
+          <div class="nav-links">
+            <ul class="nav-pages">
+              <li>
+                <a href="../HTML/index.html">
+                  <p class="en-link">home</p>
+                  <p class="jp-link">ホーム</p>
+                </a>
+              </li>
+              <li>
+                <a href="../HTML/index.html#service">
+                  <p class="en-link">service</p>
+                  <p class="jp-link">サービス</p>
+                </a>
+              </li>
+              <li>
+                <a href="../HTML/index.html#company">
+                  <p class="en-link">company</p>
+                  <p class="jp-link">会社概要</p>
+                </a>
+              </li>
+              <li>
+                <a href="../HTML/index.html#contact">
+                  <p class="en-link">contact</p>
+                  <p class="jp-link">コンタクト</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="nav-sns sns-btns">
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/channel/UCfpsYlqIv4J_ucfKqU7qH2A"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/Brains-Co-Ltd-100430075233568"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.instagram.com/brains1171/"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </aside>
+    </header>
+
+    <!-- main -->
+    <main>
+      <div class="title">
+        <div class="title-container">
+          <h1>I<span>T Systems</span></h1>
+          <h2>it機器の導入</h2>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <section class="container feature-boxies">
+          <div class="features">
+            <div class="feature-texts">
+              <h4 class="feature-title">口腔内情報のデータ化</h4>
+              <p>
+                紙の媒体からすべての情報はデータ化へ。これにより業務のスピードや管理体制が向上。
+              </p>
+            </div>
+            <h3 data-aos="fade-up" data-aos-once="true" class="feature-number">
+              1
+            </h3>
+          </div>
+          <div class="features">
+            <div class="feature-texts">
+              <h4 class="feature-title">3Dプリンターの導入</h4>
+              <p>正確でかつ迅速な作業が可能に。</p>
+              <div class="button">
+                <button>
+                  <a href="#3d-printer" class="to-printer">詳しく見る　→</a>
+                </button>
+              </div>
+            </div>
+            <h3 data-aos="fade-up" data-aos-once="true" class="feature-number">
+              2
+            </h3>
+          </div>
+          <div class="features">
+            <div class="feature-texts">
+              <h4 class="feature-title">模型のデジタル化</h4>
+              <p>
+                デジタル化により模型を作る時間や模型の作り直しといった手間が全て解消。より柔軟に対応することが可能に。
+              </p>
+            </div>
+            <h3 data-aos="fade-up" data-aos-once="true" class="feature-number">
+              3
+            </h3>
+          </div>
+          <div class="features">
+            <div class="feature-texts">
+              <h4 class="feature-title">CADソフトによるデザイン・制作</h4>
+              <p>精密機械により常に安定したもののご提供が可能に。</p>
+              <div class="button">
+                <button>
+                  <a href="#cad" class="to-cadcam">詳しく見る　→</a>
+                </button>
+              </div>
+            </div>
+            <h3 data-aos="fade-up" data-aos-once="true" class="feature-number">
+              4
+            </h3>
+          </div>
+          <div class="features">
+            <div class="feature-texts">
+              <h4 class="feature-title">リモートでの打ち合わせ</h4>
+              <p>
+                今まで難しかったドクターと患者様との３者の連携をより強化。仕上がりから着け心地に至るまで綿密な打ち合わせが可能に。
+              </p>
+            </div>
+            <h3 data-aos="fade-up" data-aos-once="true" class="feature-number">
+              5
+            </h3>
+          </div>
+        </section>
+
+        <section id="3d-printer" class="printer">
+          <div class="printer-en-title en-title">
+            <h1 data-aos="fade-up" data-aos-offset="-200">3d printer</h1>
+          </div>
+          <div class="container">
+            <h3 class="subtitle">3d プリンター</h3>
+            <div class="video">
+              <video src="../images/3Dprinter.mp4" muted autoplay loop></video>
+            </div>
+            <div class="printer-description">
+              <div class="pd">
+                <p>正確かつ迅速な作業が可能に</p>
+              </div>
+              <div class="pd">
+                <p>デジタル模型や個人トレーを作成</p>
+              </div>
+              <div>
+                <p>
+                  印象採得や模型レスにつながり、<br />模型の発送の手間を省く
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="cad" class="cadcam">
+          <div class="cadcam-en-title en-title">
+            <h1 data-aos="fade-up">cad cam</h1>
+          </div>
+          <div class="container">
+            <h3 class="subtitle">cad cam</h3>
+            <div class="video">
+              <video src="../images/3Dprinter.mp4" muted autoplay loop></video>
+            </div>
+            <div class="cadcam-sec1">
+              <h3>cad/cam冠なら保険で<br />気になる歯を自然な色に</h3>
+              <img src="../images/counseling-sec2.PNG" alt="" />
+              <p>
+                ※お客様の口内の状態によって、保険が適用されない場合がございます。スタッフや技工士にご相談ください。
+              </p>
+            </div>
+            <p class="cadcam-sec2">
+              CADソフトを使用し歯冠をデザインします。
+              クリニックごとにバイト、コンタクト、内面の適合を数値化し、精密機械により常に安定したものをご提供いたします。
+            </p>
+            <div class="cadcam-sec3">
+              <h4>納品までの流れ</h4>
+              <ul class="flow-details">
+                <li>
+                  <div class="number strings">01</div>
+                  <p>
+                    送られてきた模型をスキャン<br />（口腔内スキャンにも対応）
+                  </p>
+                </li>
+                <li>
+                  <div class="number strings">02</div>
+                  <p>被せ物、詰め物の形をデザイン</p>
+                </li>
+                <li>
+                  <div class="number strings">03</div>
+                  <p>デザインしたデータの削りだし</p>
+                </li>
+                <li>
+                  <div class="number strings">04</div>
+                  <p>咬合面のカービング、研磨</p>
+                </li>
+                <li>
+                  <div class="number strings">05</div>
+                  <p>削りだしたジルコニアを約8時間ほど焼成</p>
+                </li>
+                <li>
+                  <div class="number">06</div>
+                  <p>納品</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-container">
+        <p>&copy 2021 株式会社Brains</p>
+        <div class="footer-sns">
+          <ul class="sns-btns">
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/channel/UCfpsYlqIv4J_ucfKqU7qH2A"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/Brains-Co-Ltd-100430075233568"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.instagram.com/brains1171/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(function () {
+        // smooth scroll
+        $(".to-printer").click(function () {
+          let position = $("#3d-printer").offset().top;
+          $("html, body").animate(
+            {
+              scrollTop: position,
+            },
+            500
+          );
+          return false;
+        });
+        $(".to-cadcam").click(function () {
+          let position = $("#cad").offset().top;
+          $("html, body").animate(
+            {
+              scrollTop: position,
+            },
+            500
+          );
+          return false;
+        });
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out-back",
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>
