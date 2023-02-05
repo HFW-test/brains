@@ -262,7 +262,7 @@ nav > ul > li {
 /* ----------     intro     ---------- */
 #intro > video {
   width: 100%;
-  min-width: 330%;
+  min-width: 330px;
   height: 100vh;
   position: fixed;
   top: 6.25rem;
