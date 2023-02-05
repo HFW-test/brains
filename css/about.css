@@ -337,15 +337,19 @@ nav > ul > li {
 }
 
 #director_imgbox img {
-  width: 100%;
-  height: 100%;
   object-position: 30% 0%;
 }
 
-.zoomout {
+.zoomout_img {
+  width: 100%;
+  height: 100%;
+
   opacity: 0;
   transform: scale(1.5);
-  animation: zoomout 1.2s cubic-bezier(1, 0.01, 0.83, 0.58) forwards;
+}
+
+.zoomout {
+  animation: zoomout 0.8s cubic-bezier(0.58, 0.21, 0.91, 0.68) forwards;
 }
 
 @keyframes zoomout {
