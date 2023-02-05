@@ -93,7 +93,11 @@ video {
 }
 
 .title_wrapper {
-  transform: matrix(1, 0, 0, 1, 0, 170);
+  opacity: 0;
+  /* transform: matrix(1, 0, 0, 1, 0, 170); */
+
+  transform: translateY(-170px);
+  transition: all 1s cubic-bezier(0.22, 1, 0.36, 1) 0.1s forwards;
 }
 
 .jpns_title {
@@ -111,17 +115,22 @@ video {
 }
 
 .fadeup {
-  animation: fadeup 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  /* animation: fadeup 1s cubic-bezier(0.22, 1, 0.36, 1) forwards; */
+
+  opacity: 1;
+  transform: translateY(0);
 }
 
-@keyframes fadeup {
+/* @keyframes fadeup {
   0% {
+    opacity: 0;
     transform: matrix(1, 0, 0, 1, 0, 170);
   }
   100% {
+    opacity: 1;
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
-}
+} */
 
 /* ----------     sticky nav     ---------- */
 header {
