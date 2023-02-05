@@ -377,8 +377,6 @@ nav > ul > li {
 }
 
 #philosophy img {
-  width: 100%;
-  height: 100%;
   object-position: 100% 30%;
 }
 
@@ -432,13 +430,10 @@ nav > ul > li {
 }
 
 #cn_imgbox video {
-  width: 100%;
-  height: 100%;
   object-position: top;
 }
 
 /* ----------     info     ---------- */
-
 #info_table {
   width: 100%;
   text-align: left;
@@ -517,7 +512,6 @@ th[colspan] {
 }
 
 /* ----------    contact     ---------- */
-
 #contact {
   background: #ffffff;
   padding: 6rem 0;
